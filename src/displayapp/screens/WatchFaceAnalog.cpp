@@ -187,7 +187,7 @@ void WatchFaceAnalog::SetBatteryIcon() {
 
 void WatchFaceAnalog::Refresh() {
   if(!bgLoaded && !doNotLoadBg) {
-    lv_img_set_src(bg, "F:/images/fosdem.bin");
+    lv_img_set_src(bg, "F:/images/segvaultlogo_new.bin");
     bgLoaded = true;
   }
 

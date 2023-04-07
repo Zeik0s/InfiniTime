@@ -81,7 +81,7 @@ std::unique_ptr<Screen> SystemInfo::CreateScreen1() {
   lv_label_set_text_fmt(label,
                         "#FFFF00 InfiniTime#\n\n"
                         "#808080 Version# %ld.%ld.%ld\n"
-                        "#AB1B94 FOSDEM edition#\n"
+                        "#AB1B94 Segvault edition#\n"
                         "#808080 Short Ref# %s\n"
                         "#808080 Build date#\n"
                         "%s\n"
